@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Aeroteque Ltd | Advanced UAV Engineering</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>html.booting{overflow:hidden}#boot{position:fixed;inset:0;z-index:200;background:#0b0c0d}</style>
+<script>try{history.scrollRestoration="manual"}catch(e){}document.documentElement.classList.add("booting");if(!location.hash)scrollTo(0,0)</script>
+
+</head><body>
+<div id="boot" aria-hidden="true"><img src="assets/logo.png" alt=""></div>
+
+<nav class="nav" id="nav" aria-label="Main">
+  <a class="brand" href="index.html"><img src="assets/logo.png" alt=""><span>AEROTEQUE</span></a>
+  <div class="links"><a href="#services" id="navSvc">Services</a><a href="#auto">Solutions</a><a href="company.html">Company</a><a class="media" href="https://www.linkedin.com/company/aeroteque/home/" target="_blank" rel="noopener noreferrer">Media</a><a class="cta" href="contact.html">Contact</a></div>
+</nav>
+
+<main>
+<div class="track" id="track">
+  <div class="stage" id="stage">
+    <canvas id="rw" aria-hidden="true"></canvas>
+    <div class="shadow" id="shadow"></div>
+
+    <header class="copy" id="copy">
+            <h1 class="rot" aria-label="Engineering the next generation of unmanned flight.">
+        <span class="ph">Built for the mission.</span>
+        <span class="ph">Launch from anywhere. No runway.</span>
+        <span class="ph">Cleared for export before it ships.</span>
+        <span class="ph">From permit to payload, one partner.</span>
+      </h1>
+      <p class="sub">Engineering the next generation of unmanned flight.</p>
+      <div class="actions">
+        <button class="btn" id="goSvc">Explore services <span aria-hidden="true">↓</span></button>
+        <a class="btn ghost" href="contact.html?topic=engineer">Talk to an engineer</a>
+      </div>
+    </header>
+
+    <div class="cloth" id="cloth">
+      <svg id="clothSvg" aria-hidden="true"><path id="clothFill"/><path id="clothEdge" fill="none" stroke="#ffffff" stroke-opacity=".32" stroke-width="1"/></svg>
+      <section class="svc" id="svc" aria-label="Services">
+        <div class="svc-in">
+          <h2>Our Services</h2>
+          <div class="acc" id="acc">
+<article data-href="uav-engineering.html" class="it on" tabindex="0">
+  <svg class="geo" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 5 95 50 50 95 5 50Z"/><path d="M50 25 75 50 50 75 25 50Z"/></svg>
+  <span class="mono id">A</span>
+  <a class="arr" href="uav-engineering.html" aria-label="Open service page"><span class="mono">View service</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+  <div class="txt"><h3>UAV Engineering &amp; Integration</h3><div class="more"><p>Custom design and avionics integration for compact and long endurance unmanned platforms.</p><ul class="mono"><li>Airframe design</li><li>Avionics</li><li>Rapid prototyping</li></ul></div></div>
+  <div class="pic" data-cap="A · AIRFRAME" style="--img:url(../assets/services/uav.jpg);--pos:50% 50%" aria-hidden="true"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice"><rect width="400" height="480" fill="#15171a"/><rect width="400" height="480" fill="url(#pg)"/><g fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M200 118c14 0 18 40 18 120s-4 90-18 90-18-10-18-90 4-120 18-120Z"/><path d="M184 226 40 262v16l144-8M216 226l144 36v16l-144-8"/><path d="M200 322 150 404M200 322l50 82M150 404h100"/><circle cx="200" cy="322" r="14" stroke-opacity=".5"/><path d="M40 300v36M360 300v36M40 318h320" stroke-opacity=".4" stroke-dasharray="3 5"/><circle cx="200" cy="124" r="4" fill="#a3212f" stroke="none"/></g></svg></div>
+</article>
+<article data-href="multisensor-lidar-mapping.html" class="it" tabindex="0">
+  <svg class="geo" viewBox="0 0 100 100" aria-hidden="true"><path d="M5 95 50 5 95 95Z"/><path d="M27 95 50 50 73 95"/></svg>
+  <span class="mono id">B</span>
+  <a class="arr" href="multisensor-lidar-mapping.html" aria-label="Open service page"><span class="mono">View service</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+  <div class="txt"><h3>Multisensor &amp; LiDAR Mapping</h3><div class="more"><p>RGB, thermal and multispectral fusion for high precision 3D mapping and infrastructure inspection.</p><ul class="mono"><li>RGB</li><li>Thermal</li><li>Multispectral</li><li>LiDAR</li></ul></div></div>
+  <div class="pic" data-cap="B · SCAN" style="--img:url(../assets/services/lidar.jpg);--pos:36% 50%" aria-hidden="true"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice"><rect width="400" height="480" fill="#15171a"/><rect width="400" height="480" fill="url(#pg)"/><g fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 392 90 346l60 28 62-52 58 40 60-30 50 38" /><path d="M200 96 90 346M200 96l60 278M200 96l62 226M200 96 150 374M200 96l118 308M200 96l180 334M200 96 20 392" stroke-opacity=".28"/><path d="M120 150a110 110 0 0 0 160 0" stroke-opacity=".55"/><path d="M82 170a160 160 0 0 0 236 0" stroke-opacity=".3"/><rect x="186" y="84" width="28" height="14" /><circle cx="200" cy="91" r="3" fill="#a3212f" stroke="none"/><g fill="#fff" stroke="none"><circle cx="90" cy="346" r="2.4"/><circle cx="150" cy="374" r="2.4"/><circle cx="212" cy="322" r="2.4"/><circle cx="270" cy="362" r="2.4"/><circle cx="330" cy="332" r="2.4"/><circle cx="380" cy="370" r="2.4"/></g></g></svg></div>
+</article>
+<article data-href="precision-agriculture.html" class="it" tabindex="0">
+  <svg class="geo" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="45"/><circle cx="50" cy="50" r="28"/><circle cx="50" cy="50" r="10"/></svg>
+  <span class="mono id">C</span>
+  <a class="arr" href="precision-agriculture.html" aria-label="Open service page"><span class="mono">View service</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+  <div class="txt"><h3>Precision Agriculture</h3><div class="more"><p>Aerial data for crop monitoring, precision spraying support and soil diagnostics.</p><ul class="mono"><li>Crop monitoring</li><li>Spraying support</li><li>Soil diagnostics</li></ul></div></div>
+  <div class="pic" data-cap="C · FIELD" style="--img:url(../assets/services/agriculture.jpg);--pos:52% 50%" aria-hidden="true"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice"><rect width="400" height="480" fill="#15171a"/><rect width="400" height="480" fill="url(#pg)"/><g fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 470 188 130M20 470 194 130M80 470 200 130M140 470 206 130M200 470V130M260 470 194 130M320 470 206 130M380 470 212 130M440 470 218 130" stroke-opacity=".5" transform="translate(0 0)"/><path d="M70 400q130-26 260 0M100 340q100-20 200 0M128 290q72-14 144 0M150 250q50-10 100 0" stroke-opacity=".35"/><ellipse cx="200" cy="330"  ry="26" stroke-dasharray="4 5"/><path d="M200 330V110"/><circle cx="200" cy="106" r="6" fill="#a3212f" stroke="none"/></g></svg></div>
+</article>
+<article data-href="defense-logistics.html" class="it" tabindex="0">
+  <svg class="geo" viewBox="0 0 100 100" aria-hidden="true"><path d="M10 10h80v80H10Z"/><path d="M10 10 90 90M90 10 10 90"/></svg>
+  <span class="mono id">D</span>
+  <a class="arr" href="defense-logistics.html" aria-label="Open service page"><span class="mono">View service</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a>
+  <div class="txt"><h3>Defense &amp; Logistics</h3><div class="more"><p>Resilient flight systems for national security, emergency medical supply and harsh environments.</p><ul class="mono"><li>Reconnaissance</li><li>Launch systems</li><li>Emergency supply</li></ul></div></div>
+  <div class="pic" data-cap="D · MISSION" style="--img:url(../assets/services/defense.jpg);--pos:58% 50%" aria-hidden="true"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice"><rect width="400" height="480" fill="#15171a"/><rect width="400" height="480" fill="url(#pg)"/><g fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="200" cy="240" r="60"/><circle cx="200" cy="240" r="110" stroke-opacity=".5"/><circle cx="200" cy="240" r="160" stroke-opacity=".25"/><path d="M200 60v100M200 320v100M20 240h100M280 240h100" /><path d="M200 214v52M174 240h52" stroke-opacity=".6"/><path d="M96 380 150 330l40 24 50-60 70 40" stroke-dasharray="3 5" stroke-opacity=".7"/><path d="M280 160l12 22h-24Z" fill="#a3212f" stroke="none"/></g></svg></div>
+</article>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><pattern id="pg" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".07"/></pattern></defs></svg>
+          <a class="go" href="company.html">All services and capabilities →</a>
+        </div>
+      </section>
+    </div>
+
+    <canvas id="gl"></canvas>
+
+    <div class="hud"><span class="mono">Scroll to climb ↓</span><span class="mono" id="alt">ALT 0000 M</span></div>
+  </div>
+</div>
+
+<div class="sol" id="sol">
+<section class="auto" id="auto" aria-label="Autonomous Solutions">
+<div class="auto-in" id="autoIn">
+<h2 class="rv">Autonomous Solutions</h2>
+<div class="tiles" id="tiles">
+<article class="tl" tabindex="0" data-href="recon-uav.html" style="--img:url(../assets/auto/uav.jpg);--pos:50% 45%;--i:0">
+  <div class="bg" aria-hidden="true"></div>
+  <div class="head"><span class="mono tag">01 AUTONOMOUS FLIGHT</span><h3>RECON UAV</h3></div>
+  <span class="plus" aria-hidden="true">+</span>
+  <div class="info">
+    <p class="sb">Long endurance reconnaissance with low radar signature.</p>
+    <p class="ds">Lightweight composite airframe engineered for extended unmanned surveillance missions. Features modular payload bays and optimized aerodynamics for maximum time on station without continuous human input.</p>
+    <a class="more-link mono" href="recon-uav.html">View system <span aria-hidden="true">→</span></a>
+  </div>
+</article>
+<article class="tl" tabindex="0" data-href="pneumatic-tube-launcher.html" style="--img:url(../assets/auto/field.jpg);--pos:50% 40%;--i:1">
+  <div class="bg" aria-hidden="true"></div>
+  <div class="head"><span class="mono tag">02 AUTONOMOUS DEPLOYMENT</span><h3>Pneumatic Tube Launcher</h3></div>
+  <span class="plus" aria-hidden="true">+</span>
+  <div class="info">
+    <p class="sb">Zero runway autonomous launches in challenging tactical environments.</p>
+    <p class="ds">A highly portable system utilizing a 160mm smooth bore barrel and a 12L high pressure accumulator tank to deliver instantaneous ejection velocity, enabling independent field operations.</p>
+    <a class="more-link mono" href="pneumatic-tube-launcher.html">View system <span aria-hidden="true">→</span></a>
+  </div>
+</article>
+<article class="tl" tabindex="0" data-href="high-speed-ugv.html" style="--img:url(../assets/auto/sensor.jpg);--pos:50% 55%;--i:2">
+  <div class="bg" aria-hidden="true"></div>
+  <div class="head"><span class="mono tag">03 UNMANNED GROUND SYSTEM</span><h3>High Speed UGV</h3></div>
+  <span class="plus" aria-hidden="true">+</span>
+  <div class="info">
+    <p class="sb">Modular, heavy duty EV chassis for tactical off road intercept.</p>
+    <p class="ds">An autonomous ground platform featuring a low profile composite aero shell to minimize drag. Integrated with multispectral camouflage and heavy duty suspension for off road endurance and low detectability.</p>
+    <a class="more-link mono" href="high-speed-ugv.html">View system <span aria-hidden="true">→</span></a>
+  </div>
+</article>
+<article class="tl" tabindex="0" data-href="mobile-launch-system.html" style="--img:url(../assets/auto/defense.jpg);--pos:50% 40%;--i:3">
+  <div class="bg" aria-hidden="true"></div>
+  <div class="head"><span class="mono tag">04 AUTONOMOUS INTERCEPTION</span><h3>Mobile Launch System</h3></div>
+  <span class="plus" aria-hidden="true">+</span>
+  <div class="info">
+    <p class="sb">Off road tactical trailer with multi cell interceptor pod.</p>
+    <p class="ds">A fully mobile, rapid response unit equipped with hydraulic stabilization. Stores and salvo fires multiple interceptor drones simultaneously with pneumatic assisted boost for immediate, autonomous threat neutralization.</p>
+    <a class="more-link mono" href="mobile-launch-system.html">View system <span aria-hidden="true">→</span></a>
+  </div>
+</article>
+</div>
+</div>
+</section>
+<svg class="skirt" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><path class="skirt-fill" d="M0 0H1000V100C720 98 560 50 500 0C440 50 280 98 0 100Z"/><path class="skirt-edge" d="M1000 100C720 98 560 50 500 0C440 50 280 98 0 100"/></svg>
+</div>
+
+<section class="proc" id="proc" aria-label="Our process">
+<div class="proc-stage">
+<div class="proc-dim" id="procDim"></div>
+<div class="proc-in">
+  <header class="proc-hd rv"><div><span class="mono eb">Our process</span><h2>From first requirement to flight ready platform.</h2></div></header>
+  <div class="deck" id="deck">
+    <div class="deck-l">
+      <div class="sl-txt"><div class="sl-t on"><span class="mono n">01</span><h3>Design</h3><h4>Aircraft architecture</h4><p>Requirements definition, system architecture and engineering design around your mission.</p></div><div class="sl-t"><span class="mono n">02</span><h3>Development</h3><h4>Rapid prototyping</h4><p>Fast prototype builds and iterations of airframe, propulsion and avionics.</p></div><div class="sl-t"><span class="mono n">03</span><h3>Integration</h3><h4>Systems &amp; sensors</h4><p>Avionics, payloads and multisensor suites joined into one flight ready platform.</p></div><div class="sl-t"><span class="mono n">04</span><h3>Testing &amp; Validation</h3><h4>Aerodynamics &amp; performance</h4><p>Aerodynamic analysis and technical testing to verify performance against the brief.</p></div><div class="sl-t"><span class="mono n">05</span><h3>Deployment</h3><h4>Mission readiness</h4><p>System delivery, operational handover, and fielding the platform for active tactical operations.</p></div></div>
+      <div class="deck-ctl">
+        <div class="ctl-r"><button class="ar" id="prevS" type="button" aria-label="Previous step"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><span class="ct" aria-live="polite"><b id="ctN">1</b> / 5</span><button class="ar" id="nextS" type="button" aria-label="Next step"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+        <div class="segs" id="segs"><button class="sg" type="button" aria-label="Go to step 1"><b></b></button><button class="sg" type="button" aria-label="Go to step 2"><b></b></button><button class="sg" type="button" aria-label="Go to step 3"><b></b></button><button class="sg" type="button" aria-label="Go to step 4"><b></b></button><button class="sg" type="button" aria-label="Go to step 5"><b></b></button></div>
+      </div>
+    </div>
+    <div class="deck-r" id="deckR"><figure class="sl-i on"><img src="assets/process/design.jpg" alt="Design" decoding="async"></figure><figure class="sl-i"><img src="assets/process/development.jpg" alt="Development" decoding="async"></figure><figure class="sl-i"><img src="assets/process/integration.jpg" alt="Integration" decoding="async"></figure><figure class="sl-i"><img src="assets/process/testing.jpg" alt="Testing &amp; Validation" decoding="async"></figure><figure class="sl-i"><img src="assets/process/deployment.jpg" alt="Deployment" decoding="async"></figure></div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="caps" id="caps" aria-label="Platform capabilities">
+<header class="caps-hd rv">
+  <div><span class="mono eb">Why Aeroteque</span><h2>Built for the field. Flying in minutes.</h2></div>
+  <p>Every Aeroteque platform is engineered around one goal: putting capable, autonomous aircraft in the air faster than a threat can move. Four design decisions set our systems apart, from the first launch to the last mile of the mission.</p>
+</header>
+<div class="caps-grid">
+<a class="cap rv" style="--d:0.00s" href="pneumatic-tube-launcher.html" aria-label="View launcher">
+  <div class="cap-hd"><h3>Rapid tactical deployment</h3><span class="mono cap-tag">Deploy</span></div>
+  <div class="cap-img"><img src="assets/cards/launcher.png" alt="Pneumatic tube launcher" loading="lazy" decoding="async"></div>
+  <div class="cap-ft"><div class="cap-tx"><b class="cap-big">&lt;5 min</b><p>Ready to operate in under 5 minutes, with self launch and zero runway capability in the harshest tactical environments.</p></div><span class="cap-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</a>
+<a class="cap rv" style="--d:0.10s" href="recon-uav.html" aria-label="View recon UAV">
+  <div class="cap-hd"><h3>Stealth and advanced composites</h3><span class="mono cap-tag">Stealth</span></div>
+  <div class="cap-img"><img src="assets/cards/uav.png" alt="Reconnaissance UAV" loading="lazy" decoding="async"></div>
+  <div class="cap-ft"><div class="cap-tx"><b class="cap-big">Low</b><p>Lightweight composite airframes built to stay aloft for long flights while holding a low radar signature that is hard to detect.</p></div><span class="cap-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</a>
+<a class="cap rv" style="--d:0.20s" href="multisensor-lidar-mapping.html" aria-label="View payloads">
+  <div class="cap-hd"><h3>Modular architecture</h3><span class="mono cap-tag">Payload</span></div>
+  <div class="cap-img"><img src="assets/cards/sensor.png" alt="Multisensor payload" loading="lazy" decoding="async"></div>
+  <div class="cap-ft"><div class="cap-tx"><b class="cap-big">Modular</b><p>Modular payload bays and chassis allow fast swaps between surveillance cameras, LiDAR sensors and multiple interceptor systems.</p></div><span class="cap-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</a>
+<a class="cap rv" style="--d:0.30s" href="uav-engineering.html" aria-label="View engineering">
+  <div class="cap-hd"><h3>Full autonomy</h3><span class="mono cap-tag">Autonomy</span></div>
+  <div class="cap-img"><img src="assets/cards/ai.png" alt="Autonomy module" loading="lazy" decoding="async"></div>
+  <div class="cap-ft"><div class="cap-tx"><b class="cap-big">Full</b><p>Advanced autonomous guidance runs the entire mission cycle, from takeoff and navigation to independent threat neutralization.</p></div><span class="cap-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</a>
+</div>
+</section>
+
+<section class="trust" id="trust" aria-label="Certified by">
+<header class="caps-hd rv">
+  <div><span class="mono eb">Compliance</span><h2>Certified by.</h2></div>
+  <p>Aeroteque works inside the regulatory frameworks of the institutions below, so customers can integrate, export and deploy with confidence from the first conversation.</p>
+</header>
+<div class="trust-grid">
+<figure class="tr rv flag" style="--d:0.00s"><div class="tr-lg"><img class="g" src="assets/trust/eu.png" alt="European Union" loading="lazy" decoding="async"><img class="c" src="assets/trust/eu-color.png" alt="" aria-hidden="true" loading="lazy" decoding="async"></div><figcaption class="mono">European Union</figcaption></figure>
+<figure class="tr rv flag" style="--d:0.09s"><div class="tr-lg"><img class="g" src="assets/trust/uk.png" alt="United Kingdom" loading="lazy" decoding="async"><img class="c" src="assets/trust/uk-color.png" alt="" aria-hidden="true" loading="lazy" decoding="async"></div><figcaption class="mono">United Kingdom</figcaption></figure>
+<figure class="tr rv flag" style="--d:0.18s"><div class="tr-lg"><img class="g" src="assets/trust/nato.png" alt="NATO" loading="lazy" decoding="async"><img class="c" src="assets/trust/nato-color.png" alt="" aria-hidden="true" loading="lazy" decoding="async"></div><figcaption class="mono">NATO</figcaption></figure>
+<figure class="tr rv" style="--d:0.27s"><div class="tr-lg"><img src="assets/trust/euc.png" alt="EUC Business Services" loading="lazy" decoding="async"></div><figcaption class="mono">EUC Business Services</figcaption></figure>
+<figure class="tr rv" style="--d:0.36s"><div class="tr-lg"><img src="assets/trust/ukgov.png" alt="UK Government" loading="lazy" decoding="async"></div><figcaption class="mono">UK Government</figcaption></figure>
+</div>
+</section>
+
+<section class="after" id="after">
+  <div class="in">
+    <img class="after-logo" src="assets/logo.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <h2 class="rv">A licensed partner that flies as fast as you do.</h2>
+    <div class="actions rv" style="--d:.1s"><a class="btn light" href="contact.html?topic=quote">Request a quote</a><a class="btn ghost onDark" href="contact.html?topic=engineer">Talk to an engineer</a></div>
+    <div class="mq mono rv" style="--d:.2s" aria-hidden="true"><div><span>UAV engineering</span><span>eVTOL systems</span><span>LiDAR mapping</span><span>Precision agriculture</span><span>Defense &amp; logistics</span><span>EUC compliance</span><span>Rapid prototyping</span><span>UAV engineering</span><span>eVTOL systems</span><span>LiDAR mapping</span><span>Precision agriculture</span><span>Defense &amp; logistics</span><span>EUC compliance</span><span>Rapid prototyping</span></div></div>
+</div>
+</section>
+</main>
+<footer class="fx" id="footer">
+  <div class="fx-in">
+    <div class="fx-top">
+      <div class="fx-brand rv">
+        <a class="brand" href="index.html"><img src="assets/logo.png" alt=""><span>AEROTEQUE</span></a>
+        <p>Aeroteque Ltd is a UK engineering company that designs and integrates unmanned aircraft, launch systems and sensor payloads for defense, mapping and precision agriculture.</p>
+        <dl class="fx-co mono">
+          <div><dt>Company Name</dt><dd>AEROTEQUE LTD</dd></div>
+          <div><dt>Company Number</dt><dd>11357887</dd></div>
+          <div><dt>Address</dt><dd>London, United Kingdom</dd></div>
+        </dl>
+        <a class="fx-li" href="https://www.linkedin.com/company/aeroteque/home/" target="_blank" rel="noopener noreferrer" aria-label="Aeroteque Ltd on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.1v5.9h-4v-5.23c0-1.25-.02-2.85-1.74-2.85-1.74 0-2 1.36-2 2.76v5.32h-4V9.75Z"/></svg><span>Follow on LinkedIn</span><i aria-hidden="true">↗</i></a>
+      </div>
+      <nav class="fx-col rv" style="--d:.08s" aria-label="Pages"><span class="mono">Pages</span>
+        <a href="index.html#services">Services</a><a href="index.html#auto">Solutions</a><a href="company.html">Company</a><a href="https://www.linkedin.com/company/aeroteque/home/" target="_blank" rel="noopener noreferrer">Media</a><a href="contact.html">Contact</a></nav>
+      <nav class="fx-col rv" style="--d:.16s" aria-label="More"><span class="mono">More</span>
+        <a href="careers.html">Careers</a><a href="brand.html">Brand</a><a href="privacy.html">Privacy Policy</a></nav>
+      <div class="fx-cert rv" style="--d:.24s">
+        <img class="iso" src="assets/iso9001.png" alt="ISO 9001 Certified" width="120" height="120" loading="lazy">
+        <ul class="mono">
+          <li><b>Quality</b><span>ISO 9001 Certified</span></li>
+          <li><b>Defense</b><span>NATO NCAGE Code</span></li>
+          <li><b>Authorization</b><span>UK Gov License B 027/2026</span></li>
+          <li><b>Export</b><span>ICP &amp; EUC Compliant</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fx-word rv" aria-hidden="true">AEROTEQUE</div>
+    <div class="fx-bot mono"><span>© 2026 Aeroteque Ltd. All rights reserved.</span><span><a href="privacy.html">Privacy Policy</a></span><a href="#" data-top>Back to top ↑</a></div>
+  </div>
+</footer>
+<div id="toast" role="status">Coming soon</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="js/tx5.js"></script>
+<script src="js/main.js"></script>
+
+</body></html>
